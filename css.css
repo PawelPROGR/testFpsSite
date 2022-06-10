@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.section {
+	position: relative;
+	background: #eee;
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+.title {
+	font-size: 2em;
+	top: 50%;
+	position: absolute;
+	height: 1em;
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.black {
+	color: #333;
+}
+
+.link {
+	font-size: .75em;
+	background: #f66;
+	display: inline-block;
+	padding: 1.5em;
+	cursor: pointer;
+	color: #fff;
+}
+
+.link:hover {
+	opacity: .5;
+}
+
+.link:nth-child(2) {
+	background: #3cd;
+	float: right;
+}
+
+.second {
+	background: #f66;
+	color: #FFF;
+}
+
+.third {
+	background: #3cd;
+	color: #FFF;
+}
+
+video {
+	height: 100vh;
+}
